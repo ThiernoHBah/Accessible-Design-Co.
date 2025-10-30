@@ -1,5 +1,14 @@
 .nav-bar {
+   display: flex;
    list-style: none;
+   background-color: cadetblue;
+   align-items: center;
+   justify-content: space-around;
+   padding-right: 15px;
+}
+.logo{
+    font-size: 25px;
+    align-items: center;
 }
 body{
 background-color: burlywood;
@@ -11,9 +20,29 @@ background-color: burlywood;
 .grid-container{
     display: flex;
     border: solid;
-    height: 250px;
+    height: 300px;
     flex-direction: row;
     justify-content:space-evenly;
     background-color: cadetblue;
-
+    gap: 15px;px
+}
+.item-1{
+    display: flex;
+    border: solid;
+    height: 150px;
+}
+.item-2{
+    display: flex;
+    border: solid;
+    height: 138px
+}
+.item-3{
+    display: flex;
+    border: solid;
+    height: 150px;
+}
+.item-4{
+    display: flex;
+    border: solid;
+    height: 138px
 }
