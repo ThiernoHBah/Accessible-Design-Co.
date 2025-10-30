@@ -1,0 +1,19 @@
+.nav-bar {
+   list-style: none;
+}
+body{
+background-color: burlywood;
+}
+.img{
+    width:px;
+    height: 10px;
+}
+.grid-container{
+    display: flex;
+    border: solid;
+    height: 250px;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: cadetblue;
+
+}
